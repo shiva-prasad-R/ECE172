@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool gate_func (int a, int b)
+bool gate_func (int a, int b) // automatically type casted to bool so no worries here
 {
   bool c,d,e;   
   
